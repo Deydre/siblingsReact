@@ -1,0 +1,23 @@
+@import '../utils/variables.scss';
+
+#head {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+#head > article {
+    width: 240px;
+}
+
+form {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+form input, form label {
+    width: 100%;
+}
